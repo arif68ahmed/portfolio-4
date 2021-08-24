@@ -1,0 +1,576 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+body{
+	background: #eef3fa;
+}
+h1,h2,h3,h4,h5,h6,span,button{
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	font-family: 'Uchen', serif;
+}
+
+/** Header section Start from here**/
+#icon{
+	color: #fff;
+	font-size: 24px;
+	line-height: 100px;
+	margin-right: 20px;
+	opacity: 0;
+	transition: all .5s;
+
+}
+#nav-item{
+	display: flex;
+	justify-content: space-between;
+}
+.header{}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	height: 600px;
+}
+.navbar{
+	background: #015761;
+	width: 50%;
+}
+.navbar h1{
+	color: #f7dc4f;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+.navbar #ul{
+	padding-left: 28px;
+	transition: .5s;
+
+}
+
+.navbar #ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 12px;
+	transition: .5s;
+}
+.navbar ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.navbar h3{
+	padding-left: 180px;
+	padding-top: 50px;
+	color: #f7dc4f;
+	font-size: 32px;
+}
+.navbar h4{
+	padding-left: 180px;
+	color: #fff;
+	font-size: 72px;
+	padding-right: 25%;
+}
+.navbar p{
+	padding-left: 180px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.n-right{
+
+	width: 50%;
+	background: #fff;
+
+}
+.n-right img{
+	height: 580px;
+	width: 49.5%;
+	position: absolute;
+}
+.box{
+}
+.box ul{
+	height: 90px;
+	width: 35px;
+	background: #f7dc4f;
+	position: relative;
+	float: right;
+	margin-top: 150px;
+	padding: 10px 0px;
+
+}
+.box ul li{
+	list-style: none;
+}
+.box ul li a i{
+	padding:5px 10px;
+	font-size: 12px;
+	color: #000;
+}
+
+/** Header section End from here**/
+/** About Me section Start from here**/
+.about-me{}
+.about{
+	background: #f1f0f0;
+	text-align: center;
+	padding: 80px 250px;
+}
+.about h1{
+	color: #015761;
+	font-size: 40px;
+}
+.about p{
+	font-size: 14px;
+	padding: 20px 0px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.about button{
+	padding: 10px 18px;
+	background: #f7dc4f;
+	border: none;
+	color: #015761;
+	margin: 20px 0px;
+}
+
+/** About Me section End from here**/
+/** Video section Start from here**/
+.video h1{
+	text-align: center;
+	color: #015761;
+	background: #fff;
+	padding: 50px 0px;
+	font-size: 50px;
+}
+.video-1{
+	background-image: url('../image/img7.jpg');
+	height: 650px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.video-1 ul li{
+	list-style: none;
+	display: inline;
+}
+
+.video-1 i{
+	color: #fff;
+	font-size: 30px;
+	padding-top: 280px;
+	padding-right: 5px;
+}
+.video-1 a{
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+
+}
+
+/** Video section End from here**/
+/** Photos section Start from here**/
+.photos {
+}
+.photos h1{
+	text-align: center;
+	padding: 50px 0px;
+	font-size: 40px;
+	color: #015761;
+}
+.photo-1{
+	background: #fff;
+	padding-bottom: 80px;
+
+}
+.img-line-1{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px 40px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+	padding: 0px 10px;
+	overflow: hidden;
+}
+
+.img-line-2{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0px 40px;
+}
+
+/** Photos section End from here
+.l-img{
+	height: 620px;
+	width: 790px;
+
+}
+
+
+.contact-form{
+	height: 500px;
+	width: 50%;
+	background: #015761;
+	padding: 60px 200px;
+}
+ **/
+/** Contact section Start from here**/
+.contact{
+	display: flex;
+
+}
+.img{
+	flex-basis: 50%;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+
+.contact-form{
+	flex-basis: 50%;
+	background: #015761;
+
+}
+
+.contact-form h1{
+	font-size: 60px;
+	color: #f7dc4f;
+	padding: 0px 195px;
+	padding-top: 60px;
+
+}
+.c-2 {
+	padding: 20px 0px;
+}
+.c-4 ul{
+	padding: 0px 200px;
+}
+.c-4 ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 0px;
+
+}
+.c-4 ul li a i{
+	color: #fff;
+	font-size: 12px;
+	padding: 5px 5px;
+}
+.contact-form p{
+	color: #fff;
+	font-size: 12px;
+	padding: 0px 200px;
+
+}
+.contact-form h5{
+	color: #fff;
+	padding: 5px 0px;
+	font-weight: 500;
+	padding: 0px 200px;
+
+}
+.contact-form h2{
+	color: #fff;
+	padding: 10px 0px;
+	font-weight: 500;
+	padding: 0px 200px;
+	padding-top: 20px;
+
+}
+
+/** Contact section End from here**/
+
+.footer{
+	padding-top: 25px;
+	padding-bottom: 40px;
+	text-align: center;
+	background: #fff;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+	/* CSS */
+	
+  }
+  
+  /* 
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+	
+	/* CSS */
+	
+  }
+  
+  /* 
+	##Device = Tablets, Ipads (portrait)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+	
+	/* CSS */
+	
+  }
+  
+  /* 
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	
+	/* CSS */
+	
+  }
+  
+  /* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 867px) {
+	
+	/* CSS */
+	#icon{
+		opacity: 1;
+	}
+	#ul {
+		width: 50%;
+		position: absolute;
+		text-align: center;
+		margin-top: 20px;
+		background: darkslategrey;
+		height: 30vh;
+		display: none;
+		transition: .5s;
+	}
+	#ul.show{
+		display: block;
+	}
+	.navbar #ul li {
+		display: block;
+		padding: 10px 12px;
+		transition: .5s;
+	}
+	.navbar #ul li:hover{
+		transform: scale(1.3);
+
+	}
+	.nav{
+		height: 400px;
+	}
+	.n-right img{
+		height: 390px;
+	}
+	.navbar h3{
+		padding-left: 40px;
+		padding-top: 60px;
+		font-size: 28px;
+	}
+	.navbar h4{
+		padding-left: 40px;
+		color: #fff;
+		font-size: 42px;
+		padding-right: 5%;
+	}
+	.navbar p{
+		padding-left: 40px;;
+	}
+	.about{
+		padding: 40px 50px;
+	}
+	.contact-form h1{
+		font-size: 40px;
+		padding: 0px 50px;
+		padding-top: 40px;
+	
+	}
+	.c-2 {
+		padding: 20px 0px;
+	}
+	.c-4 ul{
+		padding: 0px 50px;
+	}
+
+	.contact-form p{
+		padding: 0px 50px;
+	}
+	.contact-form h5{
+		padding: 0px 50px;
+	}
+	.contact-form h2{
+		padding: 0px 50px;
+	}
+	.img{
+		width: 40%;
+	}
+	
+  }
+  
+  /* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 0px) and (max-width: 480px) {
+	
+	/* CSS */
+	#icon{
+		opacity: 1;
+
+	}
+	#ul {
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		margin-top: 10px;
+		background: darkslategrey;
+		height: 50vh;
+		display: none;
+		transition: all .5s;
+		padding-top: 30px;
+	}
+	#ul.show{
+		display: block;
+		transition:all .5s;
+
+	}
+	.navbar #ul li {
+		display: block;
+		padding: 10px 12px;
+		transition: .5s;
+	}
+	.navbar #ul li:hover{
+		transform: scale(1.3);
+
+	}
+	.nav{
+		display: block;
+		height: auto;
+	}
+	.navbar{
+		background: #015761;
+		width: 100%;
+		height: 80vh;
+	}
+	.n-right{
+		width: 100%;
+	}
+	.n-right img{
+		height: auto;
+		width: 100%;
+		position: unset;
+	}
+	.navbar h3{
+		padding-left: 40px;
+		padding-top: 60px;
+		font-size: 28px;
+	}
+	.navbar h4{
+		padding-left: 40px;
+		color: #fff;
+		font-size: 42px;
+		padding-right: 5%;
+	}
+	.navbar p{
+		padding-left: 40px;;
+	}
+	.about{
+		overflow: hidden;
+		padding: 20px 0px;
+	}
+	.contact{
+		display: block;
+	
+	}
+	.img{
+		width: 100%;
+	}
+	.img img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.contact-form{
+		width: 100%;
+		background: #015761;
+	
+	}
+	.contact-form h1{
+		font-size: 32px;
+		padding: 0px 10px;
+		padding-top: 20px;
+	
+	}
+	.c-2 {
+		padding: 10px 0px;
+	}
+	.c-4 ul{
+		padding: 0px 20px;
+	}
+	.contact-form {
+		text-align: center;
+	}
+
+	.contact-form p{
+		padding: 0px 20px;
+	}
+	.contact-form h5{
+		padding: 0px 50px;
+	}
+	.contact-form h2{
+		padding: 0px 20px;
+	}
+	.photos h1{
+		padding: 30px 0px;
+
+	}
+	.photo-1{
+		padding-bottom: 20px;
+	
+	}
+	.img-line-1{
+		display: block;
+
+		padding: 10px 0px;
+	}
+	
+	.img1, .img2, .img3, .img4, .img5, .img6{
+		padding: 0px 0px;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.img-line-2{
+		display: block;
+		padding: 10px 0px;
+	}
+	.box{
+		position: absolute;
+		top: 30%;
+		right: 0%;
+
+	}
+	.box ul{
+		margin-top: 40%;
+
+	
+	}
+
+
+	
+  }
